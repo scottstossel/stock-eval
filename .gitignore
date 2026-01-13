@@ -1,0 +1,5 @@
+CHECKLIST.md
+.DS_Store
+.env
+node_modules/
+.venv/
