@@ -1,0 +1,9 @@
+pandas
+numpy
+yfinance
+mlflow
+fastapi
+uvicorn
+streamlit
+scikit-learn
+evidently
