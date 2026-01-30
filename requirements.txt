@@ -1,9 +1,30 @@
-pandas
-numpy
-yfinance
-mlflow
-fastapi
-uvicorn
-streamlit
-scikit-learn
-evidently
+# Core dependencies
+pandas>=2.1,<2.3
+numpy>=1.26,<2.0
+lightgbm>=4.0.0
+
+# Market data
+yfinance>=0.2.33
+
+# ML
+scikit-learn>=1.3,<1.5
+
+# Experiment tracking
+mlflow>=2.9,<2.13
+
+# Serving
+fastapi>0.104
+uvicorn[standard]>=0.24
+
+# Dashboard
+streamlit>=1.28,<1.38
+
+# Monitoring
+evidently>=0.4.10,<0.5
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilities
+python-dateutil>=2.8.0
