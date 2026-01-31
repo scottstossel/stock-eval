@@ -1,0 +1,41 @@
+{
+  "lagged_returns": {
+    "lags": [
+      1,
+      2,
+      3,
+      5,
+      10
+    ],
+    "description": "Past daily returns (t-1, t-2, etc.)"
+  },
+  "moving_averages": {
+    "windows": [
+      5,
+      10,
+      20
+    ],
+    "price_col": "close",
+    "description": "Simple moving averages of closing price"
+  },
+  "rolling_volatility": {
+    "windows": [
+      5,
+      10,
+      20
+    ],
+    "description": "Rolling standard deviation of returns"
+  },
+  "volume_features": {
+    "windows": [
+      5,
+      10,
+      20
+    ],
+    "description": "Volume change and rolling stats"
+  },
+  "price_features": {
+    "enabled": true,
+    "description": "High-low spread, close position in daily range"
+  }
+}
