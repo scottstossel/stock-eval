@@ -3,3 +3,6 @@ CHECKLIST.md
 .env
 node_modules/
 *.csv
+venv/
+__pycache__/
+mlruns/
