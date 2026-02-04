@@ -1,26 +1,25 @@
-# Core dependencies
-pandas>=2.1,<2.3
-numpy>=1.26,<2.0
+# Core Dependencies
+setuptools>=65.0.0
+
+# Core Data & ML
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
 lightgbm>=4.0.0
 
-# Market data
-yfinance>=0.2.33
+# Data Fetching
+yfinance>=0.2.0
 
-# ML
-scikit-learn>=1.3,<1.5
+# Experiment Tracking
+mlflow>=2.9.0
 
-# Experiment tracking
-mlflow>=2.9,<2.13
+# API & Web
+fastapi>=0.104.0
+uvicorn>=0.24.0
+streamlit>=1.28.0
 
-# Serving
-fastapi>0.104
-uvicorn[standard]>=0.24
-
-# Dashboard
-streamlit>=1.28,<1.38
-
-# Monitoring
-evidently>=0.4.10,<0.5
+# Monitoring & Drift Detection
+evidently>=0.4.0
 
 # Visualization
 matplotlib>=3.7.0
